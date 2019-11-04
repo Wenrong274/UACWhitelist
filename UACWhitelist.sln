@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UACWhitelist", "UACWhitelist\UACWhitelist.csproj", "{03F265BC-6EA4-4AE2-892E-ABA01E571EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F265BC-6EA4-4AE2-892E-ABA01E571EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F265BC-6EA4-4AE2-892E-ABA01E571EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F265BC-6EA4-4AE2-892E-ABA01E571EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F265BC-6EA4-4AE2-892E-ABA01E571EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7594E63-4515-439E-A75A-35201CC3AFA7}
+	EndGlobalSection
+EndGlobal
