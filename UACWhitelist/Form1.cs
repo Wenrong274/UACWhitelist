@@ -27,7 +27,6 @@ namespace UACWhitelist
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 textBox1.Text = dialog.FileName;
-                regEditWhiteList = new RegEditWhiteList(dialog.FileName);
             }
         }
 
@@ -48,6 +47,11 @@ namespace UACWhitelist
             {
                 MessageBox.Show("執行檔路徑錯誤", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            regEditWhiteList = new RegEditWhiteList(textBox1.Text);
         }
     }
 }
